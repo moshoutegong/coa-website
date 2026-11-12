@@ -1,0 +1,6 @@
+.stage{background:#06110e url('assets/specializations/tides-background.png') center / cover no-repeat}
+.stage[data-spec="68"]{background-image:url('assets/specializations/tides-background.png')}
+.stage[data-spec="69"]{background-image:url('assets/specializations/moonbow-background.png')}
+.stage[data-spec="89"]{background-image:url('assets/specializations/hydromancy-background.png')}
+.stage[data-spec="67"]{background-image:url('assets/specializations/astralwarfare-background.png')}
+.specialization-picker{background-image:url('assets/specializations/tides-background.png');background-position:center;background-size:100% 100%}

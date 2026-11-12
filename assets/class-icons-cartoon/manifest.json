@@ -1,0 +1,212 @@
+{
+  "barbarian": {
+    "row": 0,
+    "column": 0,
+    "box": [
+      0,
+      0,
+      128,
+      128
+    ]
+  },
+  "witchdoctor": {
+    "row": 3,
+    "column": 6,
+    "box": [
+      768,
+      384,
+      896,
+      512
+    ]
+  },
+  "felsworn": {
+    "row": 0,
+    "column": 4,
+    "box": [
+      512,
+      0,
+      640,
+      128
+    ]
+  },
+  "witchhunter": {
+    "row": 3,
+    "column": 7,
+    "box": [
+      896,
+      384,
+      1024,
+      512
+    ]
+  },
+  "stormbringer": {
+    "row": 3,
+    "column": 0,
+    "box": [
+      0,
+      384,
+      128,
+      512
+    ]
+  },
+  "knightofxoroth": {
+    "row": 0,
+    "column": 6,
+    "box": [
+      768,
+      0,
+      896,
+      128
+    ]
+  },
+  "guardian": {
+    "row": 0,
+    "column": 7,
+    "box": [
+      896,
+      0,
+      1024,
+      128
+    ]
+  },
+  "templar": {
+    "row": 1,
+    "column": 3,
+    "box": [
+      384,
+      128,
+      512,
+      256
+    ]
+  },
+  "bloodmage": {
+    "row": 2,
+    "column": 5,
+    "box": [
+      640,
+      256,
+      768,
+      384
+    ]
+  },
+  "ranger": {
+    "row": 2,
+    "column": 1,
+    "box": [
+      128,
+      256,
+      256,
+      384
+    ]
+  },
+  "chronomancer": {
+    "row": 0,
+    "column": 1,
+    "box": [
+      128,
+      0,
+      256,
+      128
+    ]
+  },
+  "necromancer": {
+    "row": 1,
+    "column": 4,
+    "box": [
+      512,
+      128,
+      640,
+      256
+    ]
+  },
+  "pyromancer": {
+    "row": 2,
+    "column": 0,
+    "box": [
+      0,
+      256,
+      128,
+      384
+    ]
+  },
+  "cultist": {
+    "row": 0,
+    "column": 2,
+    "box": [
+      256,
+      0,
+      384,
+      128
+    ]
+  },
+  "starcaller": {
+    "row": 2,
+    "column": 7,
+    "box": [
+      896,
+      256,
+      1024,
+      384
+    ]
+  },
+  "suncleric": {
+    "row": 3,
+    "column": 1,
+    "box": [
+      128,
+      384,
+      256,
+      512
+    ]
+  },
+  "tinker": {
+    "row": 3,
+    "column": 2,
+    "box": [
+      256,
+      384,
+      384,
+      512
+    ]
+  },
+  "prophet": {
+    "row": 1,
+    "column": 7,
+    "box": [
+      896,
+      128,
+      1024,
+      256
+    ]
+  },
+  "reaper": {
+    "row": 2,
+    "column": 2,
+    "box": [
+      256,
+      256,
+      384,
+      384
+    ]
+  },
+  "primalist": {
+    "row": 3,
+    "column": 5,
+    "box": [
+      640,
+      384,
+      768,
+      512
+    ]
+  },
+  "runemaster": {
+    "row": 2,
+    "column": 6,
+    "box": [
+      768,
+      256,
+      896,
+      384
+    ]
+  }
+}

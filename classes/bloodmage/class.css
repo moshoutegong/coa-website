@@ -1,0 +1,6 @@
+.stage{background:#06110e url('assets/specializations/fleshweaver-background.png') center / cover no-repeat}
+.stage[data-spec="93"]{background-image:url('assets/specializations/fleshweaver-background.png')}
+.stage[data-spec="26"]{background-image:url('assets/specializations/blood-background.png')}
+.stage[data-spec="52"]{background-image:url('assets/specializations/ferocity-background.png')}
+.stage[data-spec="53"]{background-image:url('assets/specializations/packleader-background.png')}
+.specialization-picker{background-image:url('assets/specializations/fleshweaver-background.png');background-position:center;background-size:100% 100%}

@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/shadowhunting-background.png') center / cover no-repeat}
+.stage[data-spec="36"]{background-image:url('assets/specializations/shadowhunting-background.png')}
+.stage[data-spec="34"]{background-image:url('assets/specializations/voodoo-background.png')}
+.stage[data-spec="35"]{background-image:url('assets/specializations/brewing-background.png')}
+.specialization-picker{background-image:url('assets/specializations/shadowhunting-background.png');background-position:center;background-size:100% 100%}

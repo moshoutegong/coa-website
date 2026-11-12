@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/destruction-background.png') center / cover no-repeat}
+.stage[data-spec="19"]{background-image:url('assets/specializations/destruction-background.png')}
+.stage[data-spec="62"]{background-image:url('assets/specializations/incineration-background.png')}
+.stage[data-spec="63"]{background-image:url('assets/specializations/draconic-background.png')}
+.specialization-picker{background-image:url('assets/specializations/destruction-background.png');background-position:center;background-size:100% 100%}

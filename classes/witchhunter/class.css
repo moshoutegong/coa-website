@@ -1,0 +1,6 @@
+.stage{background:#06110e url('assets/specializations/boltslinger-background.png') center / cover no-repeat}
+.stage[data-spec="39"]{background-image:url('assets/specializations/boltslinger-background.png')}
+.stage[data-spec="40"]{background-image:url('assets/specializations/darkness-background.png')}
+.stage[data-spec="41"]{background-image:url('assets/specializations/inquisition-background.png')}
+.stage[data-spec="94"]{background-image:url('assets/specializations/witchknight-background.png')}
+.specialization-picker{background-image:url('assets/specializations/boltslinger-background.png');background-position:center;background-size:100% 100%}

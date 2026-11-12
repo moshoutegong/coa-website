@@ -1,0 +1,66 @@
+/* Layout integration and Simplified Chinese fonts; original native component CSS is preserved. */
+body[data-view=talents] main{max-width:none;width:100%;padding:0;margin:0}.coa-creation{padding-top:0;min-height:calc(100svh - 158px);font-family:CoACreation,"Microsoft YaHei","PingFang SC",sans-serif}.creation-environment.creation-image-crossfade{inset:0}.coa-talent-dialog,.coa-spell-tooltip{font-family:CoACreation,"Microsoft YaHei","PingFang SC",sans-serif}.creation-information h1{font-weight:700}.creation-spec-description{font-size:15px;line-height:1.6}.creation-fantasy{font-size:18px;line-height:1.6}.coa-talent-dialog{margin:auto}.coa-creation .creation-attributes{margin-bottom:0}.coa-spell-tooltip{white-space:pre-line}.coa-spell-tooltip h3{line-height:1.5}.creation-spec-tabs a,.creation-class-row a{background:none;border:0}.coa-creation h2{font-weight:600}@media(min-width:1101px){.coa-creation{min-height:850px}}@media(max-width:760px){.coa-creation{--creation-rail-width:76px}.creation-class-picker{top:0}.creation-class-name{font-size:12px}.creation-information h1{font-size:32px}.creation-spec-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}.creation-spec-description{font-size:15px}.creation-stage{width:calc(100% - 32px)}}
+@media(max-width:760px){.coa-creation .creation-class-picker{top:var(--coa-mobile-rail-top,0px)}}
+/* 2026-10-18: aligned layout, preserving the original game textures and colors. */
+@media(min-width:761px){
+ .coa-creation{min-height:0;padding-bottom:22px}
+ .coa-creation .creation-stage{width:min(1320px,calc(100% - 88px));margin:26px auto 30px;display:grid;grid-template-columns:minmax(330px,410px) minmax(0,810px);grid-template-areas:"title title" "tabs tabs" "info art" "info launch";grid-template-rows:auto auto auto auto;column-gap:54px;row-gap:20px;align-items:start;flex:none}
+ .creation-information{display:contents}
+ .creation-information h1{grid-area:title;text-align:center;margin:0!important;font-size:40px;line-height:1.25}
+ .creation-spec-tabs{grid-area:tabs;justify-self:center;width:min(560px,100%);gap:22px;margin:0 0 12px!important}
+ .creation-spec-tabs a{gap:8px;font-size:15px;max-width:125px;min-height:76px}
+ .creation-spec-orb{width:48px;height:48px}
+ .creation-spec-copy{grid-area:info;align-self:start;margin:0 5px}
+ .creation-portrait-column{grid-area:art;align-self:start;padding-top:0!important;margin:0}
+ .creation-portrait{margin:0}
+ .creation-fantasy{padding:0 14px;margin-top:15px!important;font-size:17px;line-height:1.75}
+ .creation-stage .creation-talent-launch{grid-area:launch;justify-content:center;align-self:start;padding:0;margin:0}
+ .creation-talent-launch .coa-talent-open{--button-height:52px;width:330px;font-size:21px!important}
+ .creation-spec-interior{padding:48px 27px 22px}
+ .creation-loadout{display:grid;grid-template-columns:1fr;gap:12px;padding:10px 12px 12px}
+ .creation-stat-icons{gap:18px;align-items:start}
+ .creation-stat-icons>span{min-width:58px;font-size:14px;gap:4px}
+ .creation-stat-icons img{width:32px;height:32px}
+ .creation-attributes{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0!important}
+ .creation-attributes dt{font-size:12px;margin-bottom:4px}
+ .creation-attributes dd{font-size:14px;line-height:1.5}
+ .creation-spec-copy h2{font-size:27px;margin:18px 0 8px}
+ .creation-role-icons img{width:40px;height:40px}
+ .creation-role-icons>span{font-size:14px}
+ .creation-spec-divider{margin:18px auto}
+ .creation-spec-description{font-size:15px;line-height:1.7;min-height:52px}
+ .creation-difficulty{font-size:14px;margin:15px 0!important}
+ .coa-spell-select{gap:18px;margin:12px 0 8px}
+ .coa-ability-hint{font-size:12px}
+ .creation-class-picker{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px 18px;padding:22px max(25px,calc((100% - 1080px)/2)) 18px}
+ .creation-class-row{display:contents}
+ .creation-class-row a{width:100%;min-height:76px;gap:7px}
+ .creation-class-orb{width:46px;height:46px}
+ .creation-class-name{font-size:14px;max-width:none}
+}
+@media(min-width:761px) and (max-width:1100px){.coa-creation .creation-stage{width:calc(100% - 58px);grid-template-columns:minmax(300px,.95fr) minmax(0,1.25fr);column-gap:30px}.creation-class-picker{gap:12px 4px;padding-inline:20px}.creation-class-name{font-size:13px}.creation-spec-interior{padding-inline:20px}}
+/* Compact horizontal heading and a wider information panel. */
+.creation-information h1{display:flex;align-items:center;justify-content:center;gap:14px}.creation-heading-icon{display:block;width:54px;height:54px;object-fit:contain;flex-shrink:0}
+@media(min-width:761px){
+ .coa-creation .creation-stage{grid-template-columns:minmax(430px,520px) minmax(0,750px);grid-template-areas:"title tabs" "info art" "info launch";grid-template-rows:auto auto 52px;column-gap:40px;row-gap:18px;margin-top:24px}
+ .creation-information h1{justify-content:flex-start;padding-left:12px;font-size:36px;align-self:center;min-height:68px}
+ .creation-spec-tabs{width:100%;max-width:560px;justify-self:center;align-self:center;margin:0!important;gap:16px}
+ .creation-spec-tabs a{min-height:66px;gap:6px;font-size:15px}
+ .creation-spec-copy{align-self:stretch}
+ .creation-spec-interior{height:100%;display:flex;flex-direction:column;padding:45px 27px 18px}
+ .creation-spec-description{max-width:420px;min-height:44px}
+ .creation-spec-copy h2{margin:13px 0 6px}
+ .creation-spec-divider{margin:12px auto;flex-shrink:0}
+ .creation-difficulty{margin:12px 0!important}
+ .creation-spec-copy .coa-spellbook{margin-top:auto;padding-top:8px}
+ .creation-fantasy{padding:0 9px;margin-top:12px!important;line-height:1.65}
+ .creation-stage .creation-talent-launch{align-self:end}
+}
+@media(min-width:761px) and (max-width:1100px){.coa-creation .creation-stage{grid-template-columns:minmax(350px,1fr) minmax(0,1.15fr);column-gap:25px}.creation-information h1{font-size:29px;gap:10px}.creation-heading-icon{width:46px;height:46px}.creation-spec-tabs{gap:9px}.creation-spec-orb{width:42px;height:42px}.creation-spec-tabs a{font-size:13px}}
+@media(max-width:760px){.creation-heading-icon{width:42px;height:42px}}
+.creation-heading-row{display:flex;align-items:center;justify-content:center;gap:38px;width:100%}
+@media(min-width:761px){.coa-creation .creation-stage{grid-template-areas:"heading heading" "info art" "info launch"}.creation-heading-row{grid-area:heading;min-height:72px}.creation-heading-row h1{grid-area:auto;min-height:0;padding:0;flex-shrink:0}.creation-heading-row .creation-spec-tabs{grid-area:auto;flex:0 1 auto;width:auto;max-width:none;gap:20px}.creation-heading-row .creation-spec-tabs a{flex:0 0 auto;min-width:86px;max-width:125px}.creation-heading-row .creation-spec-tabs a:first-child{margin-left:0}}
+@media(min-width:761px) and (max-width:1100px){.creation-heading-row{gap:24px}.creation-heading-row .creation-spec-tabs{gap:10px}.creation-heading-row .creation-spec-tabs a{min-width:65px}}
+@media(max-width:760px){.creation-heading-row{flex-direction:column;gap:12px;margin-bottom:26px}.creation-heading-row h1{margin:0}.creation-heading-row .creation-spec-tabs{margin-bottom:0}}
+/* Keep icon backplates inside the circular Warcraft frames. */
+.creation-class-orb>img{border-radius:50%;clip-path:circle(49% at 50% 50%)}

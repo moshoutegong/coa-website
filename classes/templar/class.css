@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/discipline-background.png') center / cover no-repeat}
+.stage[data-spec="16"]{background-image:url('assets/specializations/discipline-background.png')}
+.stage[data-spec="50"]{background-image:url('assets/specializations/fighting-background.png')}
+.stage[data-spec="51"]{background-image:url('assets/specializations/runes-background.png')}
+.specialization-picker{background-image:url('assets/specializations/discipline-background.png');background-position:center;background-size:100% 100%}

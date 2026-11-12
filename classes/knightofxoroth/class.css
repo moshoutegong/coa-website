@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/hellfire-background.png') center / cover no-repeat}
+.stage[data-spec="46"]{background-image:url('assets/specializations/hellfire-background.png')}
+.stage[data-spec="47"]{background-image:url('assets/specializations/defiance-background.png')}
+.stage[data-spec="45"]{background-image:url('assets/specializations/war-background.png')}
+.specialization-picker{background-image:url('assets/specializations/hellfire-background.png');background-position:center;background-size:100% 100%}

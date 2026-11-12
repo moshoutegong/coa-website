@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/felblood-background.png') center / cover no-repeat}
+.stage[data-spec="38"]{background-image:url('assets/specializations/felblood-background.png')}
+.stage[data-spec="37"]{background-image:url('assets/specializations/slaying-background.png')}
+.stage[data-spec="18"]{background-image:url('assets/specializations/demonology-background.png')}
+.specialization-picker{background-image:url('assets/specializations/felblood-background.png');background-position:center;background-size:100% 100%}

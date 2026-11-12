@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/gladiator-background.png') center / cover no-repeat}
+.stage[data-spec="49"]{background-image:url('assets/specializations/gladiator-background.png')}
+.stage[data-spec="48"]{background-image:url('assets/specializations/inspiration-background.png')}
+.stage[data-spec="7"]{background-image:url('assets/specializations/protection-background.png')}
+.specialization-picker{background-image:url('assets/specializations/gladiator-background.png');background-position:center;background-size:100% 100%}

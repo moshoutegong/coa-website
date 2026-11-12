@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ascension Sidekick — Conquest of Azeroth Builds, Tiers &amp; Specs</title>
+<meta name="theme-color" content="#0d0f14">
+<meta name="description" content="Free Conquest of Azeroth companion for Project Ascension (Vol'jin &amp; Rexxar): talent builder with in-game import, spec tier lists, leveling builds, stat priorities and rotations for all 21 classes.">
+<link rel="canonical" href="https://ascensionsidekick.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ascension Sidekick">
+<meta property="og:title" content="Ascension Sidekick — Conquest of Azeroth Builds, Tiers &amp; Specs">
+<meta property="og:description" content="Talent builder, spec tier lists, leveling builds and rotations for Conquest of Azeroth (Project Ascension — Vol'jin &amp; Rexxar). Free and offline-ready.">
+<meta property="og:url" content="https://ascensionsidekick.com/">
+<meta property="og:image" content="https://ascensionsidekick.com/pwa-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ascension Sidekick — Conquest of Azeroth Builds, Tiers &amp; Specs">
+<meta name="twitter:description" content="Talent builder, tier lists, leveling builds and rotations for Conquest of Azeroth (Project Ascension). Free, offline-ready.">
+<meta name="twitter:image" content="https://ascensionsidekick.com/pwa-512.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Ascension Sidekick","alternateName":"CoA Sidekick","applicationCategory":"GameApplication","operatingSystem":"Web, Android, iOS","url":"https://ascensionsidekick.com/","description":"Free Conquest of Azeroth (Project Ascension) companion: talent builder, spec tier lists, leveling builds, stat priorities and rotations.","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ascension Sidekick">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css">
+<link rel="stylesheet" href="/wf.css">
+<link rel="stylesheet" href="/community.css">
+<script>
+(function () {
+  try {
+    if (location.protocol !== "https:" && location.protocol !== "http:") return;
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      t.onerror = function () {};
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "xg9npy5ttd");
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<div id="topbar"></div>
+<main id="app"></main>
+<footer class="site-foot">
+  <div class="foot-cta" id="foot-cta"></div>
+  <span class="foot-disc">A fan-made community companion. <b>Not affiliated with, endorsed by, or associated with Blizzard Entertainment, World of Warcraft, or Project Ascension.</b> Hosts no game files or downloads — a theorycrafting and planning tool only. COA is pre-meta — treat as a planning heuristic, verify in play.</span>
+</footer>
+
+<script src="/util.js"></script>
+<script src="/data.js"></script>
+<script src="/builder-engine.js"></script>
+<script src="/wf-engine.js"></script>
+<script src="/vendor/leaflet/leaflet.js"></script>
+<script src="/vendor/leaflet/markercluster.js"></script>
+<script src="/community.js"></script>
+<script src="/app.js"></script>
+<script>
+(function () {
+  try {
+    if ((location.protocol === "https:" || location.protocol === "http:") && "serviceWorker" in navigator) {
+      window.addEventListener("load", function () { navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch(function () {}); });
+    }
+  } catch (e) {}
+})();
+</script>
+</body>
+</html>

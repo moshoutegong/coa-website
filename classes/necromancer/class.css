@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/death-background.png') center / cover no-repeat}
+.stage[data-spec="59"]{background-image:url('assets/specializations/death-background.png')}
+.stage[data-spec="61"]{background-image:url('assets/specializations/animation-background.png')}
+.stage[data-spec="60"]{background-image:url('assets/specializations/rime-background.png')}
+.specialization-picker{background-image:url('assets/specializations/death-background.png');background-position:center;background-size:100% 100%}

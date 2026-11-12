@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/tactics-background.png') center / cover no-repeat}
+.stage[data-spec="32"]{background-image:url('assets/specializations/tactics-background.png')}
+.stage[data-spec="31"]{background-image:url('assets/specializations/brutality-background.png')}
+.stage[data-spec="33"]{background-image:url('assets/specializations/ancestry-background.png')}
+.specialization-picker{background-image:url('assets/specializations/tactics-background.png');background-position:center;background-size:100% 100%}

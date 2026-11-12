@@ -1,0 +1,138 @@
+{
+  "source": "D:/GP/feisheng/Data/patch-A.MPQ; LoginScene.lua and AtlasInfo.lua",
+  "layers": [
+    {
+      "atlas": "loginScene-bg",
+      "path": "Interface\\GLUES\\LoginScene\\LoginScenebg.blp",
+      "box": [
+        0,
+        0,
+        2048,
+        2048
+      ],
+      "center": [
+        12,
+        0
+      ]
+    },
+    {
+      "atlas": "loginScene-clouds-vertical",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneSkyboxAtlas.blp",
+      "box": [
+        0,
+        0,
+        1931,
+        946
+      ],
+      "center": [
+        0,
+        0
+      ]
+    },
+    {
+      "atlas": "loginScene-clouds-horizontal",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneSkyboxAtlas.blp",
+      "box": [
+        0,
+        1660,
+        1135,
+        2048
+      ],
+      "center": [
+        0,
+        -32
+      ]
+    },
+    {
+      "atlas": "loginScene-clouds-subhorizontal",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneSkyboxAtlas.blp",
+      "box": [
+        0,
+        1370,
+        1067,
+        1660
+      ],
+      "center": [
+        -128,
+        -64
+      ]
+    },
+    {
+      "atlas": "loginScene-clouds-mountains",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneSkyboxAtlas.blp",
+      "box": [
+        1534,
+        1024,
+        2048,
+        1566
+      ],
+      "center": [
+        -168,
+        -182
+      ]
+    },
+    {
+      "atlas": "loginScene-mountains-base",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneAtlasfront.blp",
+      "box": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "center": [
+        12,
+        0
+      ]
+    },
+    {
+      "atlas": "loginScene-mountains-statues",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneAtlasfront.blp",
+      "box": [
+        1024,
+        1024,
+        2048,
+        2048
+      ],
+      "center": [
+        12,
+        0
+      ]
+    },
+    {
+      "atlas": "loginScene-mountains-mistBig",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneAtlasfront.blp",
+      "box": [
+        1024,
+        0,
+        2048,
+        1024
+      ],
+      "center": [
+        12,
+        0
+      ]
+    },
+    {
+      "atlas": "loginScene-statue-movementFlipbook",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneStatueLeftFlipbook.blp",
+      "frame": 0
+    },
+    {
+      "atlas": "loginScene-statue-movementFlipbookRight",
+      "path": "Interface\\GLUES\\LoginScene\\loginscenestatuerightflipbook.blp",
+      "frame": 0
+    },
+    {
+      "atlas": "loginScene-statues-fireFlipbook",
+      "path": "Interface\\GLUES\\LoginScene\\LoginSceneFireAtlas.blp",
+      "frame": 0,
+      "blend": "ADD"
+    }
+  ],
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "note": "Static client scene; excludes logos, account fields, buttons and social links."
+}

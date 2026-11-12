@@ -1,0 +1,47 @@
+.specialization-picker{display:none;background:#151615;border:2px ridge #6b6d5f;color:#ffe06b}
+.app.choosing-spec .specialization-picker{display:block}
+.app.choosing-spec>.specs,.app.choosing-spec>.stage,.app.choosing-spec>.detail,.app.choosing-spec>.bottom,.app.choosing-spec>.browse-help{display:none}
+.picker-intro{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:14px 24px;border-bottom:1px solid #54513a;background:#070a08aa}
+.picker-intro h1{font-size:21px;margin:0;color:#ffe279}.picker-intro p{font-size:12px;color:#bbc6bf;margin:5px 0 0}
+.specialization-cards{display:grid;grid-template-columns:repeat(var(--spec-count,4),minmax(0,1fr));min-height:650px}
+.specialization-card{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;padding:26px 18px 22px;border-right:1px solid #595542;transition:background .2s,box-shadow .2s;background:#080a0933}
+.specialization-card:last-child{border-right:0}.specialization-card:hover{background:#baa64213}
+.specialization-card.current{background:linear-gradient(90deg,#7d5b001b,#a37b004a 50%,#7d5b001b);box-shadow:inset 3px 0 12px #ffd32a9c,inset -3px 0 12px #ffd32a9c}
+.specialization-art{display:block;width:100%;max-width:310px;aspect-ratio:616/372;object-fit:cover;border:3px ridge #74766a;border-radius:5px;box-shadow:0 0 0 3px #080c09,0 6px 14px #000a}.current .specialization-art{border-color:#e6bd45;box-shadow:0 0 0 2px #090c09,0 0 16px #a9842266}
+.specialization-card h2{color:#f4f3e9;font-size:29px;margin:20px 0 1px}.specialization-english{font-size:13px;letter-spacing:2px;color:#b8c7c4}.specialization-alias{font-size:12px;color:#9baaa6;margin-top:5px}
+.specialization-role{font-size:14px;font-weight:bold;border:1px solid #887138;border-radius:20px;padding:6px 16px;margin:15px 0;background:#0a0d0a}
+.specialization-copy{border-top:1px solid #72664a77;padding-top:18px;font-size:14px;line-height:1.65;max-width:340px;min-height:140px}.specialization-copy p{margin:0 0 7px}.specialization-copy .english{font-size:12px;color:#b9c7c4}
+.specialization-stats{font-size:13px;color:#dad4ba;line-height:1.8}.specialization-difficulty{color:#8ae970;font-size:13px;margin-top:4px}.specialization-samples{margin:15px 0 0;border-top:1px solid #72664a77;padding-top:12px;width:100%;font-size:12px;color:#d9d7c6}
+.sample-icons{display:flex;justify-content:center;gap:10px;margin-top:10px}.sample-ability{padding:0;background:#060c08;border:2px ridge #c4c6ac;border-radius:50%;width:49px;height:49px;cursor:pointer;overflow:hidden}.sample-ability img{width:100%;height:100%;object-fit:cover}.sample-ability:hover{border-color:#ffde6b;transform:translateY(-2px)}
+.specialization-state{margin-top:auto;padding:16px 0 7px;color:#70ed50;font-size:13px;min-height:43px}.specialization-card .primary{width:100%;max-width:275px}.top .picker-top-button{grid-column:1;grid-row:1;justify-self:start;margin-left:0!important;white-space:nowrap;font-size:12px}.top strong{grid-row:1}.top #skills-top{grid-row:1;grid-column:3}
+@media(max-width:820px){.specialization-cards{grid-template-columns:1fr}.specialization-card{padding:25px 22px;border-right:0;border-bottom:1px solid #595542}.specialization-copy{min-height:0}.specialization-art{max-width:350px}.picker-intro{padding:14px}.picker-intro h1{font-size:18px}.top .picker-top-button{display:block}.specialization-state{margin-top:0}}
+@media(prefers-reduced-motion:reduce){.specialization-card{transition:none}}
+@media(max-width:820px){.top{grid-template-columns:auto minmax(0,1fr);gap:10px}.top strong{grid-column:2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right}.top #skills-top{display:none}}
+
+@media(min-width:821px) and (max-width:1150px){.specialization-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.specialization-picker{border:0;background-color:#101a17}.picker-intro{justify-content:center;text-align:center;padding:22px 24px;background:linear-gradient(180deg,#15251de8,#102018c9);border-bottom:1px solid #ae925e35}.picker-intro h1{font-weight:600;color:#e8cd91}.picker-intro p{color:#afc1b5;line-height:1.7;margin-top:8px}.specialization-art{border:1px solid #8b97746b;border-radius:10px;box-shadow:0 8px 24px #0006}.current .specialization-art{border-color:#d5b56d;box-shadow:0 8px 24px #0006,0 0 18px #c9aa4926}.specialization-card{border-color:#b49a5b26}.specialization-card.current{background:linear-gradient(180deg,#b18d2826,#8b742a0d);box-shadow:inset 0 2px #d2b56d,inset 0 0 40px #b3911712}
+
+/* Quiet backgrounds keep specialization text legible across all classes. */
+.specialization-picker{background-image:none!important;background-color:#101913}.specialization-card{background:linear-gradient(180deg,#1a2520,#111a15);transition:background .2s,box-shadow .2s}.specialization-card:nth-child(even){background:linear-gradient(180deg,#1b2227,#12191c)}.specialization-card:hover{background:linear-gradient(180deg,#253229,#18231c)}.specialization-card.current,.specialization-card.current:hover{background:linear-gradient(180deg,#3a3322,#27261b 55%,#1d2118);box-shadow:inset 0 2px #d2b56d,inset 0 0 40px #b3911712}.specialization-copy p{color:#ead498}.specialization-copy .english{color:#c5d1c8}.specialization-stats{color:#d4ded5}.specialization-alias{color:#acbfb3}
+
+.specialization-english{line-height:1.6;letter-spacing:1px}.specialization-english .specialization-alias{display:inline;font-size:12px;letter-spacing:0;margin:0}.specialization-separator{color:#a78c58;margin:0 5px}
+
+/* Consistent vertical rhythm after removing the secondary English copy. */
+.specialization-card{padding:26px 22px 24px}.specialization-card h2{margin:20px 0 4px}.specialization-role{margin:16px 0 18px}.specialization-copy{width:100%;min-height:104px;padding-top:18px;line-height:1.8}.specialization-copy p{margin:0}.specialization-facts{display:flex;justify-content:center;align-items:baseline;gap:20px;width:100%;margin:12px 0 20px;white-space:nowrap}.specialization-facts .specialization-stats,.specialization-facts .specialization-difficulty{font-size:13px;line-height:1.7;margin:0}.specialization-samples{margin:0;padding-top:18px}.sample-icons{margin-top:12px}.specialization-state{padding:20px 0 10px;min-height:48px}.specialization-cards{min-height:650px}
+@media(max-width:1100px) and (min-width:821px){.specialization-card{padding-left:14px;padding-right:14px}.specialization-facts{gap:12px}.specialization-facts .specialization-stats,.specialization-facts .specialization-difficulty{font-size:12px}}
+@media(max-width:820px){.specialization-card{padding:26px 22px}.specialization-copy{min-height:0;padding-top:18px;margin-bottom:10px}.specialization-facts{margin:16px 0 22px}.specialization-state{margin-top:0}}
+
+.sample-ability{display:inline-flex;align-items:center;justify-content:center;cursor:default}.sample-ability:hover{transform:none;filter:none}
+
+.specialization-role{display:flex;gap:16px;border:0;background:none;padding:0}.game-role,.game-stat{display:inline-flex;flex-direction:column;align-items:center;gap:3px}.game-role img{width:42px;height:42px}.game-role span{font-size:12px;color:#e8cb78}.specialization-facts{align-items:center}.specialization-facts .specialization-stats{display:flex;gap:12px;align-items:center}.game-stat img{width:28px;height:28px}.game-stat span{font-size:11px}
+.specialization-card{isolation:isolate}.specialization-card.current:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:url('spec-ui/spec-selected-background1.png') center/100% 100% no-repeat;opacity:.65;animation:spec-game-glow 4s ease-in-out infinite}.specialization-card.current:after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:url('spec-ui/spec-selected-background2.png') left/45% 100% no-repeat,url('spec-ui/spec-selected-background3.png') right/45% 100% no-repeat;opacity:.5;animation:spec-game-glow 4s ease-in-out -2s infinite}@keyframes spec-game-glow{0%,100%{opacity:.35}50%{opacity:.8}}@media(prefers-reduced-motion:reduce){.specialization-card.current:before,.specialization-card.current:after{animation:none}}
+/* Keep side light at the card edges rather than creating a seam through its centre. */
+.specialization-card.current:after{background:linear-gradient(90deg,#ffd44555,transparent 7%,transparent 93%,#ffd44555);box-shadow:inset 2px 0 8px #ffd44544,inset -2px 0 8px #ffd44544}
+
+.specialization-facts{flex-direction:column;gap:10px;margin:14px 0 20px}.specialization-facts .specialization-stats{justify-content:center;gap:14px}.specialization-facts .specialization-difficulty{margin:0}.specialization-card.current,.specialization-card.current:hover{background:linear-gradient(180deg,#302b1c,#23251a 60%,#182019);box-shadow:inset 0 2px #b79a56}.specialization-card.current:before{opacity:.18;animation:spec-subtle 5s ease-in-out infinite;filter:brightness(.65) saturate(.7)}.specialization-card.current:after{background:linear-gradient(90deg,#d8ab2630,transparent 6%,transparent 94%,#d8ab2630);box-shadow:inset 1px 0 6px #d0a63b25,inset -1px 0 6px #d0a63b25;opacity:.25;animation:none}@keyframes spec-subtle{0%,100%{opacity:.12}50%{opacity:.23}}@media(prefers-reduced-motion:reduce){.specialization-card.current:before{animation:none}}
+/* Slightly larger primary stats for easier reading across all classes. */
+.game-stat img{width:36px;height:36px}
+.game-stat span{font-size:13px;line-height:1.5}
+.game-stat{gap:5px}
+.specialization-facts .specialization-stats{gap:18px}

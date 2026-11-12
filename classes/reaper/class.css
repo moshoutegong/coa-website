@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/backgrounds/reaper-2.png') left top / 128% 131% no-repeat}
+.stage[data-spec="80"]{background-image:url('assets/backgrounds/reaper-2.png')}
+.stage[data-spec="79"]{background-image:url('assets/backgrounds/reaper-2.png')}
+.stage[data-spec="81"]{background-image:url('assets/backgrounds/reaper-2.png')}
+.specialization-picker{background-image:url('assets/specializations/background.png');background-position:center;background-size:100% 100%}

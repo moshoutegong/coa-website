@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/runic-background.png') center / cover no-repeat}
+.stage[data-spec="85"]{background-image:url('assets/specializations/runic-background.png')}
+.stage[data-spec="11"]{background-image:url('assets/specializations/arcane-background.png')}
+.stage[data-spec="86"]{background-image:url('assets/specializations/riftblade-background.png')}
+.specialization-picker{background-image:url('assets/specializations/runic-background.png');background-position:center;background-size:100% 100%}

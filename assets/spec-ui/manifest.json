@@ -1,0 +1,146 @@
+{
+  "ui-lfg-roleicon-dps": {
+    "path": "interface\\lfgframe\\uilfgprompts.blp",
+    "box": [
+      1,
+      773,
+      257,
+      1029
+    ]
+  },
+  "ui-lfg-roleicon-rangeddps": {
+    "path": "interface\\lfgframe\\uilfgprompts.blp",
+    "box": [
+      775,
+      515,
+      1031,
+      771
+    ]
+  },
+  "ui-lfg-roleicon-casterdps": {
+    "path": "interface\\lfgframe\\uilfgprompts.blp",
+    "box": [
+      1551,
+      781,
+      1806,
+      1037
+    ]
+  },
+  "ui-lfg-roleicon-tank": {
+    "path": "interface\\lfgframe\\uilfgprompts.blp",
+    "box": [
+      1549,
+      515,
+      1805,
+      771
+    ]
+  },
+  "ui-lfg-roleicon-healer": {
+    "path": "interface\\lfgframe\\uilfgprompts.blp",
+    "box": [
+      259,
+      515,
+      515,
+      771
+    ]
+  },
+  "ui-lfg-roleicon-generic": {
+    "path": "interface\\lfgframe\\uilfgprompts.blp",
+    "box": [
+      1,
+      1289,
+      257,
+      1545
+    ]
+  },
+  "primary-stat-circle-strength": {
+    "path": "Interface\\lfgframe\\PrimaryStatIcons.blp",
+    "box": [
+      1,
+      1,
+      61,
+      61
+    ]
+  },
+  "primary-stat-circle-agility": {
+    "path": "Interface\\lfgframe\\PrimaryStatIcons.blp",
+    "box": [
+      67,
+      1,
+      127,
+      61
+    ]
+  },
+  "primary-stat-circle-stamina": {
+    "path": "Interface\\lfgframe\\PrimaryStatIcons.blp",
+    "box": [
+      129,
+      1,
+      189,
+      61
+    ]
+  },
+  "primary-stat-circle-intellect": {
+    "path": "Interface\\lfgframe\\PrimaryStatIcons.blp",
+    "box": [
+      1,
+      67,
+      61,
+      127
+    ]
+  },
+  "primary-stat-circle-spirit": {
+    "path": "Interface\\lfgframe\\PrimaryStatIcons.blp",
+    "box": [
+      67,
+      67,
+      127,
+      127
+    ]
+  },
+  "spec-selected-background1": {
+    "path": "interface\\talentframe\\specialization.blp",
+    "box": [
+      1,
+      859,
+      396,
+      1715
+    ]
+  },
+  "spec-selected-background2": {
+    "path": "interface\\talentframe\\specialization.blp",
+    "box": [
+      398,
+      859,
+      793,
+      1715
+    ]
+  },
+  "spec-selected-background3": {
+    "path": "interface\\talentframe\\specialization.blp",
+    "box": [
+      795,
+      859,
+      1190,
+      1715
+    ]
+  },
+  "spec-selected-background4": {
+    "path": "interface\\talentframe\\specialization.blp",
+    "box": [
+      1192,
+      859,
+      1587,
+      1715
+    ]
+  },
+  "spec-selected-background5": {
+    "path": "interface\\talentframe\\specialization.blp",
+    "box": [
+      1589,
+      859,
+      1984,
+      1715
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/displacement-background.png') center / cover no-repeat}
+.stage[data-spec="58"]{background-image:url('assets/specializations/displacement-background.png')}
+.stage[data-spec="56"]{background-image:url('assets/specializations/duality-background.png')}
+.stage[data-spec="57"]{background-image:url('assets/specializations/time-background.png')}
+.specialization-picker{background-image:url('assets/specializations/displacement-background.png');background-position:center;background-size:100% 100%}

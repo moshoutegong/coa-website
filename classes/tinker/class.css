@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/firearms-background.png') center / cover no-repeat}
+.stage[data-spec="73"]{background-image:url('assets/specializations/firearms-background.png')}
+.stage[data-spec="75"]{background-image:url('assets/specializations/mechanics-background.png')}
+.stage[data-spec="74"]{background-image:url('assets/specializations/invention-background.png')}
+.specialization-picker{background-image:url('assets/specializations/firearms-background.png');background-position:center;background-size:100% 100%}

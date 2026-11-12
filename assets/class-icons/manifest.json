@@ -1,0 +1,197 @@
+{
+  "barbarian": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "atlas": "class-round-barbarian"
+  },
+  "witchdoctor": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      768,
+      384,
+      896,
+      512
+    ],
+    "atlas": "class-round-witchdoctor"
+  },
+  "witchhunter": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      896,
+      384,
+      1024,
+      512
+    ],
+    "atlas": "class-round-witchhunter"
+  },
+  "stormbringer": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      0,
+      384,
+      128,
+      512
+    ],
+    "atlas": "class-round-stormbringer"
+  },
+  "guardian": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      896,
+      0,
+      1024,
+      128
+    ],
+    "atlas": "class-round-guardian"
+  },
+  "ranger": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      128,
+      256,
+      256,
+      384
+    ],
+    "atlas": "class-round-ranger"
+  },
+  "chronomancer": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      128,
+      0,
+      256,
+      128
+    ],
+    "atlas": "class-round-chronomancer"
+  },
+  "necromancer": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      512,
+      128,
+      640,
+      256
+    ],
+    "atlas": "class-round-necromancer"
+  },
+  "pyromancer": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      0,
+      256,
+      128,
+      384
+    ],
+    "atlas": "class-round-pyromancer"
+  },
+  "cultist": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      256,
+      0,
+      384,
+      128
+    ],
+    "atlas": "class-round-cultist"
+  },
+  "starcaller": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      896,
+      256,
+      1024,
+      384
+    ],
+    "atlas": "class-round-starcaller"
+  },
+  "suncleric": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      128,
+      384,
+      256,
+      512
+    ],
+    "atlas": "class-round-suncleric"
+  },
+  "tinker": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      256,
+      384,
+      384,
+      512
+    ],
+    "atlas": "class-round-tinker"
+  },
+  "prophet": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      896,
+      128,
+      1024,
+      256
+    ],
+    "atlas": "class-round-prophet"
+  },
+  "reaper": {
+    "archive": "patch-A.MPQ",
+    "path": "Interface\\Glues\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES-ROUND.blp",
+    "box": [
+      256,
+      256,
+      384,
+      384
+    ],
+    "atlas": "class-round-reaper"
+  },
+  "bloodmage": {
+    "sourcePage": "https://ardenwow.com/classes",
+    "source": "ArdenWoW official class icon",
+    "url": "https://ardenwow.com/images/classes/Bloodmage.png"
+  },
+  "felsworn": {
+    "sourcePage": "https://ardenwow.com/classes",
+    "source": "ArdenWoW official class icon",
+    "url": "https://ardenwow.com/images/classes/Felsworn.png"
+  },
+  "templar": {
+    "sourcePage": "https://ardenwow.com/classes",
+    "source": "ArdenWoW official class icon",
+    "url": "https://ardenwow.com/images/classes/Templar.png"
+  },
+  "primalist": {
+    "sourcePage": "https://ardenwow.com/classes",
+    "source": "ArdenWoW official class icon",
+    "url": "https://ardenwow.com/images/classes/Primalist.png"
+  },
+  "runemaster": {
+    "sourcePage": "https://ardenwow.com/classes",
+    "source": "ArdenWoW official class icon",
+    "url": "https://ardenwow.com/images/classes/Runemaster.png"
+  },
+  "knightofxoroth": {
+    "sourcePage": "https://ardenwow.com/classes",
+    "source": "ArdenWoW official class icon",
+    "url": "https://ardenwow.com/images/classes/Knight%20of%20Xoroth.png"
+  }
+}

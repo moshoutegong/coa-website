@@ -1,0 +1,110 @@
+/* Shared Warcraft palette. Native talent frames and semantic item colors stay local. */
+:root{--coa-bg:#0c1217;--coa-surface:#141d25;--coa-surface-raised:#19242e;--coa-border:#3d464b;--coa-gold:#d6b66f;--coa-ivory:#f3e8cd;--coa-copy:#c5cdd1;--coa-muted:#94a2ad;--bg:var(--coa-bg)!important;--panel:var(--coa-surface)!important;--line:var(--coa-border)!important;--gold:var(--coa-gold)!important;--text:var(--coa-copy)!important;--muted:var(--coa-muted)!important}
+body{font-family:"Microsoft YaHei UI","Microsoft YaHei","PingFang SC",sans-serif!important}
+body[data-view]{font-size:16px;line-height:1.75;color:var(--coa-copy)}
+#site-header .masthead{background:linear-gradient(180deg,#14212b,#101a22)!important;border-color:#4c4736!important}
+#site-header .nav-band{background:#0d151c!important;border-block-color:#4c4736!important}
+#site-header nav,#site-header .primary-menu summary{font-family:"Microsoft YaHei UI","Microsoft YaHei",sans-serif!important;font-size:15px!important}
+#site-header nav a,#site-header .primary-menu summary{color:#dbceb0!important}
+#site-header nav a:hover,#site-header .primary-menu summary:hover,#site-header [data-current] summary{color:#ffe1a0!important}
+#site-header .primary-menu>div{background:#141e26!important;border-color:#68583b!important;box-shadow:0 12px 28px #0009!important;border-radius:4px!important}
+#site-header .primary-menu>div a{font-size:14px!important}
+#site-header .primary-menu>div a:hover{background:#302b21!important}
+#site-header .nav-search{font-size:13px!important;color:var(--coa-muted)!important}
+body[data-view]:not([data-view="talents"]):not([data-view="home"]) main{max-width:1384px!important;padding-inline:32px!important}
+body[data-view] .page-heading{margin:42px 0 28px!important;padding:0!important}
+body[data-view] .page-heading h1{font-size:clamp(30px,3vw,42px)!important;line-height:1.3!important;color:var(--coa-ivory)!important;letter-spacing:.03em!important;margin-bottom:16px!important}
+body[data-view] .page-heading>p:not(.eyebrow){font-size:16px!important;line-height:1.85!important;color:var(--coa-muted)!important;max-width:960px}
+body[data-view] .eyebrow{font-size:11px!important;color:var(--coa-gold)!important;letter-spacing:.22em!important}
+body[data-view]:not([data-view="talents"]) :is(.section-title h2,.skill-result-heading h2,.companion-card h2,.sk-community-body h2,.tool h3){color:var(--coa-ivory)!important}
+/* Scope controls to utility surfaces; do not restyle talent nodes or game tooltips. */
+body[data-view] :is(.sk-chip-row,.sk-tabs,.sk-private-tools,.sk-card-actions,.sk-pagination,.sk-library-head,.sk-library-filters,.skill-filterbar,.macro-generator,.companion-content,.wf-category-grid,.sk-wf-filters,.sk-tool-nav) button,
+body[data-view] :is(.sk-tool-nav,.companion-nav) a{background:linear-gradient(#202b34,#172129)!important;color:#d6d9d6!important;border:1px solid #475158!important;border-radius:5px!important;font-size:14px!important;line-height:1.45!important;min-height:40px;padding:9px 14px;box-shadow:inset 0 1px #ffffff05!important;transition:background .15s,border-color .15s}
+body[data-view] :is(.sk-chip-row,.sk-tabs,.sk-private-tools,.sk-card-actions,.sk-pagination,.sk-library-head,.sk-library-filters,.skill-filterbar,.macro-generator,.companion-content,.wf-category-grid,.sk-wf-filters,.sk-tool-nav) button:hover{border-color:#b99a5d!important;background:#2b302e!important;color:#fff0ce!important}
+body[data-view] :is(.sk-chip-row,.sk-tabs,.sk-library-head,.wf-category-grid,.sk-tool-nav) button.active,
+body[data-view] :is(.sk-tool-nav,.companion-nav) a.active,
+body[data-view] :is(.sk-chip-row,.sk-tabs) button[aria-selected="true"]{background:linear-gradient(#493d25,#30291d)!important;border-color:#c3a366!important;color:#ffe3a1!important;box-shadow:inset 0 1px #f3dc9c1c!important}
+body[data-view] :is(#sk-add,#macro-generate,#macro-save,.macro-generator button[type="submit"]){background:linear-gradient(#d7b878,#b18b42)!important;border-color:#e1c785!important;color:#191b17!important;font-weight:700!important}
+body[data-view]:not([data-view="talents"]) :is(input:not([type="checkbox"]):not([type="radio"]),select,textarea){font-family:inherit!important;font-size:15px!important;color:#e0e3dc!important;background:#0c141c!important;border:1px solid #45535e!important;border-radius:5px!important;line-height:1.5}
+body[data-view] :is(input,select,textarea):focus-visible{outline:2px solid #d6b66f!important;outline-offset:2px}
+body[data-view] :is(.sk-library-filters,.sk-wf-filters,.companion-card,.sk-community-card,.sk-skill-card,.tool,.class-card,.sk-region-grid>a,.sk-region-grid button){background:linear-gradient(145deg,#19242ddd,#111a22f5)!important;border:1px solid #3c484f!important;border-radius:8px!important;box-shadow:0 5px 18px #0002!important}
+body[data-view] :is(.sk-skill-card,.class-card,.tool,.sk-region-grid>a):hover{border-color:#a78b55!important;box-shadow:0 7px 22px #0005!important}
+body[data-view] :is(.sk-library-filters,.sk-wf-filters){padding:22px!important}
+body[data-view] :is(.sk-filter,.sk-chip-row){gap:8px}
+body[data-view] :is(.sk-intro,.sk-community-body>p,.companion-card>p,.tool p){font-size:15px!important;color:var(--coa-copy)!important;line-height:1.8!important}
+body[data-view] :is(.sk-author,.sk-source,.companion-source,.wf-filter-summary,.skill-result-heading p){font-size:13px!important;color:var(--coa-muted)!important}
+body[data-view] :is(.sk-chip-row button small,.sk-tabs small){color:#b7aa89!important}
+body[data-view] :is(.sk-tags span,.sk-original-title){border-color:#495150!important;color:#cabb96!important;background:#202b2c!important}
+body[data-view] :is(.macro-generator,.sk-editor){border-color:#5d5641!important;background:#121c25!important;border-radius:8px!important}
+body[data-view] :is(.macro-generator label,.wf-select-grid label>span){font-size:14px!important;color:#c4b58f!important}
+body[data-view] :is(pre,code,textarea[id*="code"]){font-family:Consolas,"Microsoft YaHei",monospace!important}
+#site-footer{border-top-color:#454435!important;color:var(--coa-muted)!important;font-size:13px!important}
+.sidekick-tools-page .sk-heading{margin:42px 0 28px!important}
+.sidekick-tools-page .sk-heading h1{font-size:clamp(30px,3vw,42px)!important;line-height:1.3!important;color:var(--coa-ivory)!important;margin-bottom:16px!important}
+.sidekick-tools-page .sk-heading .eyebrow{color:var(--coa-gold)!important}
+.sidekick-tools-page .sk-heading>p:not(.eyebrow){font-size:16px!important;color:var(--coa-muted)!important;line-height:1.85!important}
+.sidekick-tools-page .sk-heading>p:first-child{font-size:11px!important;color:var(--coa-gold)!important;letter-spacing:.22em!important}
+.sidekick-tools-page .macro-code-column button{background:linear-gradient(#202b34,#172129)!important;color:#d6d9d6!important;border:1px solid #475158!important;border-radius:5px!important;font-size:13px!important;padding:7px 12px!important}
+.sidekick-tools-page .macro-code-column button:hover{border-color:#b99a5d!important;color:#ffe3a1!important}
+.skill-compact .sk-gauge b{color:#d6bd83!important}.skill-compact .sk-gauge i{background:#d0ad63!important}
+@media(max-width:700px){body[data-view]:not([data-view="talents"]):not([data-view="home"]) main{padding-inline:18px!important}.page-heading{margin-top:28px!important}body[data-view] .page-heading>p:not(.eyebrow){font-size:15px!important}body[data-view] :is(.sk-library-filters,.sk-wf-filters){padding:16px!important}#site-header nav,#site-header .primary-menu summary{font-size:14px!important}}
+/* Game-like signature disclosure, retaining verified bilingual content. */
+.kami-signature .signature-game-tooltip{width:360px;max-width:100%;margin-top:14px;padding:14px 16px;background:linear-gradient(135deg,#17130fef,#090a0bf5);border:1px solid #b8b4a0;border-radius:4px;box-shadow:inset 0 0 0 1px #342d22,0 5px 18px #0007;color:#ffdf46;font-size:15px;line-height:1.55}
+.signature-game-tooltip>strong{display:block;color:#fff4d8;font-size:18px;line-height:1.35}
+.signature-game-tooltip>small{display:block;color:#bdb8a6;font-size:12px;margin-top:4px}
+.kami-signature .signature-game-tooltip p{color:#ffdf46!important;font-size:15px!important;line-height:1.6!important;white-space:pre-line;margin:12px 0}
+.signature-game-tooltip>footer{padding:0;border:0;background:none;color:#c9c6b6;font-size:12px;text-align:right}
+.signature-english{border-top:1px solid #70634166;margin-top:10px;padding-top:8px}
+.signature-english summary{font-size:12px!important;color:#aaa797!important;border:0!important;font-weight:400!important;padding:0!important}
+.kami-signature{border-left-color:#a58a52!important;background:#131a21!important}
+.kami-signature h2{color:#e2c789!important}body[data-view] .kami-signature{border-left-color:#a58a52!important}
+.signature-game-tooltip>footer{margin:0!important;min-height:0!important;max-width:none!important;width:auto!important;padding:0!important;display:block!important;box-shadow:none!important}
+.signature-english summary:after{content:none!important}
+/* One shared wordmark and type scale; native talent UI keeps its original typography. */
+#site-header .masthead{justify-content:center!important;min-height:108px;height:108px!important;padding:14px 24px!important}
+#site-header .mast-left,#site-header .mast-right{display:none!important}
+#site-header .site-wordmark{display:flex!important;flex-direction:row;align-items:center;justify-content:center;gap:26px;text-decoration:none;line-height:1.1!important}
+#site-header .site-wordmark>.wordmark-en{display:block;font:700 34px/1.02 Georgia,"Times New Roman",serif!important;letter-spacing:-.03em!important;color:#ecdbaf;text-align:center;text-shadow:0 2px 6px #0006}
+#site-header .wordmark-en>span{display:block;font-size:21px;letter-spacing:.23em;padding-left:.23em;color:#b6d1ce;margin-top:5px}
+#site-header .site-wordmark>.wordmark-zh{display:flex;flex-direction:column;gap:9px;padding-left:25px;border-left:1px solid #8e805455;letter-spacing:.12em!important;font-family:"Microsoft YaHei UI","Microsoft YaHei",sans-serif!important;text-align:left}
+#site-header .wordmark-zh strong{font-size:26px!important;font-weight:650;color:#efdfb9;line-height:1.2}
+#site-header .wordmark-zh small{display:block;font-size:17px!important;letter-spacing:.10em!important;color:#cab788;line-height:1.2}
+#site-header .nav-band{min-height:72px!important}
+#site-header .nav-band nav,#site-header .primary-menu summary,#site-header .nav-band nav>a{font-size:18px!important;font-weight:500;letter-spacing:.04em}
+#site-header .nav-band nav{gap:30px!important}
+#site-header .primary-menu>div a{font-size:15px!important}
+/* Lighten only the opening scene. Lower feature banners retain their muted palette. */
+body[data-view="home"] #main .coa-intro-hero{background-image:linear-gradient(90deg,#080e18a3 0%,#0a10194d 44%,#0b101500 76%),linear-gradient(0deg,#0c1119c9 0%,transparent 18%),url('backgrounds/arden-login.webp')!important;min-height:calc(100svh - 180px)!important;overflow:hidden}
+body[data-view="home"] #main .coa-intro-hero:after{background:none!important;animation:none!important}
+body[data-view="home"] #main .coa-intro-content{max-width:850px!important}
+body[data-view="home"] #main .coa-intro-content h1{font-family:"Microsoft YaHei","PingFang SC",sans-serif!important;font-size:clamp(40px,3.7vw,64px)!important;font-weight:700!important;line-height:1.3!important;letter-spacing:.02em!important;margin:22px 0 28px!important;text-shadow:0 3px 16px #0009;color:#fff3d9!important}
+body[data-view="home"] #main .coa-intro-content>p:not(.eyebrow){font-size:18px!important;line-height:1.9!important;color:#e1ddcf!important;text-shadow:0 2px 6px #000a}
+body[data-view="home"] .coa-intro-links a{font-size:17px!important}
+body[data-view="home"] .coa-intro-facts{font-size:13px!important}
+body[data-view="home"] :is(.blackcat-copy h2,.community-feature-copy h3){font-family:"Microsoft YaHei","PingFang SC",sans-serif!important;font-weight:650!important;letter-spacing:.02em!important}
+.hero-fire-layer{position:absolute;inset:0;pointer-events:none;z-index:0;overflow:hidden;contain:layout paint}
+.hero-brazier{position:absolute;width:1px;height:1px;transform:scale(var(--fire-scale));transform-origin:0 0;mix-blend-mode:screen;pointer-events:none}
+.brazier-glow{position:absolute;left:-80px;bottom:-15px;width:160px;height:130px;background:radial-gradient(ellipse at 50% 75%,#ff9b224d,transparent 65%);animation:brazier-glow 2.7s ease-in-out infinite alternate}
+.brazier-flame{position:absolute;left:-38px;bottom:0;width:76px;height:76px;background:radial-gradient(ellipse at 50% 80%,#fffbc59c 0%,#ffd44866 26%,#ff9b162e 47%,transparent 68%);transform-origin:50% 100%;filter:blur(3px);animation:brazier-flicker 1.7s ease-in-out infinite alternate;opacity:.7}
+.hero-brazier:nth-child(2) .brazier-flame{animation-delay:-.8s}
+.brazier-ember{position:absolute;bottom:8px;left:calc((var(--ember) - 2)*11px);height:3px;width:2px;border-radius:50%;background:#ffd68b;box-shadow:0 0 4px #ff9a35;opacity:0;animation:brazier-rise calc(2.7s + var(--ember)*.3s) linear infinite;animation-delay:calc(var(--ember)*-.8s)}
+@keyframes brazier-flicker{0%{transform:scale(.92,.9) rotate(-3deg);opacity:.35}35%{transform:scale(1.03,1.08) rotate(2deg);opacity:.65}70%{transform:scale(.96,.98) rotate(-1deg);opacity:.4}100%{transform:scale(1,1.13) rotate(3deg);opacity:.6}}
+@keyframes brazier-glow{from{opacity:.35}to{opacity:.6}}
+@keyframes brazier-rise{0%{transform:translate(0,0);opacity:0}15%{opacity:.55}80%{opacity:.2}100%{transform:translate(14px,-100px);opacity:0}}
+.hero-fire-paused .hero-fire-layer i{animation-play-state:paused!important}
+@media(max-width:700px){#site-header .masthead{height:94px!important;min-height:94px; padding:10px 12px!important}#site-header .site-wordmark{gap:16px}#site-header .site-wordmark>.wordmark-en{font-size:26px!important}#site-header .wordmark-en>span{font-size:15px}#site-header .site-wordmark>.wordmark-zh{padding-left:15px;gap:6px}#site-header .wordmark-zh strong{font-size:21px!important}#site-header .wordmark-zh small{font-size:13px!important}#site-header .nav-band nav{gap:7px!important}#site-header .nav-band nav,#site-header .primary-menu summary,#site-header .nav-band nav>a{font-size:16px!important}body[data-view="home"] #main .coa-intro-hero{min-height:calc(100svh - 170px)!important;padding:48px 24px!important}body[data-view="home"] #main .coa-intro-content h1{font-size:clamp(32px,7.5vw,44px)!important}body[data-view="home"] #main .coa-intro-content>p:not(.eyebrow){font-size:16px!important}.brazier-ember{display:none}}
+@media(prefers-reduced-motion:reduce){.hero-fire-layer{display:none}.coa-intro-content{animation:none!important}}
+
+@font-face{font-family:COALanting;src:url('fonts/FZLanTingHeiSBGB-Regular.woff2') format('woff2');font-weight:400 900;font-display:swap}
+#site-header .site-wordmark>.wordmark-zh{gap:3px!important}
+#site-header .wordmark-zh strong,#site-header .wordmark-zh small{margin:0!important;line-height:1.12!important}
+#site-header .nav-band nav,#site-header .primary-menu summary,#site-header .nav-band nav>a,#site-header .wordmark-zh strong{font-family:COALanting,"Microsoft YaHei",sans-serif!important;font-weight:400!important}
+body[data-view="home"] #main .coa-intro-content h1,body[data-view] .page-heading h1,body[data-view] .sk-heading h1,body[data-view="home"] :is(.blackcat-copy h2,.community-feature-copy h3){font-family:COALanting,"Microsoft YaHei",sans-serif!important;font-weight:400!important}
+#site-header .primary-menu>summary{display:flex;align-items:center;gap:9px}
+#site-header .primary-menu>summary:after{content:"";display:block;width:7px;height:7px;border-right:1.5px solid #a99a7b;border-bottom:1.5px solid #a99a7b;transform:rotate(45deg) translateY(-2px);transition:transform .16s;opacity:.85}
+#site-header .primary-menu[open]>summary:after{transform:rotate(225deg) translate(-2px,-1px)}
+.hero-brazier .brazier-flame{left:-49px;width:98px;height:108px;filter:blur(2px);background:radial-gradient(ellipse at 50% 83%,#fff7bded 0%,#ffd14fa8 24%,#ff8a2466 43%,transparent 68%);animation-duration:.95s}
+.hero-brazier .brazier-glow{left:-100px;width:200px;height:155px;background:radial-gradient(ellipse at 50% 75%,#ff9b227a,transparent 67%)}
+.hero-brazier .brazier-ember{width:3px;height:4px;bottom:14px;background:#ffe4a3}
+@keyframes brazier-flicker{0%{transform:scale(.92,.94) rotate(-4deg);opacity:.65}35%{transform:scale(1.06,1.13) rotate(3deg);opacity:.95}70%{transform:scale(.97,1.01) rotate(-1deg);opacity:.7}100%{transform:scale(1.02,1.18) rotate(4deg);opacity:.9}}
+@media(max-width:700px){#site-header .site-wordmark>.wordmark-zh{gap:3px!important}#site-header .nav-band nav{gap:5px!important}#site-header .primary-menu>summary{gap:6px}}

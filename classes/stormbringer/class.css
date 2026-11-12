@@ -1,0 +1,5 @@
+.stage{background:#06110e url('assets/specializations/wind-background.png') center / cover no-repeat}
+.stage[data-spec="43"]{background-image:url('assets/specializations/wind-background.png')}
+.stage[data-spec="44"]{background-image:url('assets/specializations/gifts-background.png')}
+.stage[data-spec="42"]{background-image:url('assets/specializations/lightning-background.png')}
+.specialization-picker{background-image:url('assets/specializations/wind-background.png');background-position:center;background-size:100% 100%}

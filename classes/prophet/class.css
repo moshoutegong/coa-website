@@ -1,0 +1,6 @@
+.stage{background:#06110e url('assets/specializations/fortitude-background.png') center / cover no-repeat}
+.stage[data-spec="78"]{background-image:url('assets/specializations/fortitude-background.png')}
+.stage[data-spec="77"]{background-image:url('assets/specializations/stalking-background.png')}
+.stage[data-spec="76"]{background-image:url('assets/specializations/venom-background.png')}
+.stage[data-spec="92"]{background-image:url('assets/specializations/vizier-background.png')}
+.specialization-picker{background-image:url('assets/specializations/fortitude-background.png');background-position:center;background-size:100% 100%}

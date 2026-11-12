@@ -1,0 +1,6 @@
+.stage{background:#06110e url('assets/specializations/influence-background.png') center / cover no-repeat}
+.stage[data-spec="66"]{background-image:url('assets/specializations/influence-background.png')}
+.stage[data-spec="65"]{background-image:url('assets/specializations/corruption-background.png')}
+.stage[data-spec="64"]{background-image:url('assets/specializations/godblade-background.png')}
+.stage[data-spec="88"]{background-image:url('assets/specializations/bulwark-background.png')}
+.specialization-picker{background-image:url('assets/specializations/influence-background.png');background-position:center;background-size:100% 100%}
