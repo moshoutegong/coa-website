@@ -7,7 +7,7 @@
   document.body.prepend(nav);
   const css=document.createElement("link");css.rel="stylesheet";css.href="../../assets/shared-header.css";document.head.append(css);const shared=document.createElement("script");shared.src="../../assets/shared-header.js";document.body.append(shared);
   const tools=document.createElement('nav');tools.className='coa-site-tools';tools.setAttribute('aria-label','资料站栏目');
-  tools.innerHTML='<a href="../../index.html">资料站首页</a><a href="../../classes.html">COA 职业</a><a href="../../talents.html">天赋目录</a><a href="../../spells.html">技能目录</a><a href="../../search.html">全站搜索</a><a href="../../worldforge.html">世界铸造</a><a href="../../map.html">世界地图</a>';
+  tools.innerHTML='<a href="../../index.html">资料站首页</a><a href="../../classes.html">COA 职业</a><a href="../../talents.html">天赋目录</a><a href="../../spells.html">技能目录</a><a href="../../search.html">全站搜索</a><a href="../../worldforge.html">世界铸造</a>';
   nav.after(tools);
   if(!isCodex&&!location.pathname.endsWith('/preview.html')){const orderCSS=document.createElement('link');orderCSS.rel='stylesheet';orderCSS.href='../../assets/talent-order.css';document.head.append(orderCSS);const orderJS=document.createElement('script');orderJS.src='../../assets/talent-order.js';document.body.append(orderJS);}
   const params=new URLSearchParams(location.search);
