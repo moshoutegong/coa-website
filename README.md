@@ -1,4 +1,5 @@
 # COA 中文资料站
+<img width="1612" height="774" alt="image" src="https://github.com/user-attachments/assets/defca168-4a53-4dac-865c-450615f10fcc" />
 
 本站是面向 Conquest of Azeroth（COA）玩家的中文资料站，核心是**全职业天赋模拟器**和**双语技能图鉴**。目前收录 **21 个职业、70 个专精、3,616 条天赋数据和 4,637 条技能图鉴数据**。
 
